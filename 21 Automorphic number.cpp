@@ -5,12 +5,12 @@ using namespace std;
 int main()
 {
     int num, flag = 0;
- 
+
     cin >> num;
     int sq = num * num;
-    cout<<sq<<endl;
+    cout << sq << endl;
     int store = num;
-    while (num > 0)
+    while (num ! = 0)
     {
         if (num % 10 != sq % 10)
         {
@@ -23,7 +23,7 @@ int main()
     if (flag == 1)
         cout << store << "  no";
     else
-        cout << store <<"  yes";
+        cout << store << "  yes";
     return 0;
 }
 
@@ -38,19 +38,18 @@ int main()
 //     int sq=pow(n,2);
 //     int count=0;
 
-
 //     int n1, num = 0, lo=0;
-//     n1 = n; 
+//     n1 = n;
 //     while (n != 0)
 //     {
-//         n /= 10; 
-//         num++; 
+//         n /= 10;
+//         num++;
 //     }
 
 //     cout<< num;
 
 //     int j=n%(10*num);
-    
+
 //     if(j==n)
 //     {
 //         cout<<"yes";
