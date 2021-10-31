@@ -1,6 +1,6 @@
 // Program to remove duplicate elements from an array
 
-#include <iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -30,7 +30,8 @@ int main()
         }
     }
 
-    cout << "\nDISTINCT ELEMENTS: ";
+    cout << "\nDISTINCT ELEMENTS: " <<endl;
+    sort(num, num + n);
 
     for (i = 0; i < n; i++)
     {
